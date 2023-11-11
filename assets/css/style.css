@@ -53,7 +53,18 @@ form button {
   cursor: pointer;
   margin-top: 30px;
 }
-
+button{
+  padding: 25px;
+  border-radius: 15px;
+  font-size: 25px;
+  width: auto;
+  height: auto;
+  background-color:white ;
+}
+button:hover{
+  transition: 1.15ms;
+  background-color: rgb(192, 191, 191);
+}
 form button:hover {
   background: var(--primary-color-darker);
 }

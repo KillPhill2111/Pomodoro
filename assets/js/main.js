@@ -52,9 +52,9 @@ document.addEventListener('click', function (e) { //função anonima com um even
         pomodoroAtivo = false; //pomodoro false cairá no else do iniciaRelogio()
     }
     if (el.classList.contains('iniciar')) {
-        relogio.classList.remove('pausado');
-        clearInterval(timer);
-        iniciaRelogio();
+        relogio.classList.remove('pausado'); //remove a função pausado
+        clearInterval(timer); 
+        iniciaRelogio(); //inicia a aplicação da função inciaRelogio()
     }
     if (el.classList.contains('pausar')) {
         relogio.classList.add('pausado');
